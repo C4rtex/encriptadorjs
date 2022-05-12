@@ -1,0 +1,159 @@
+.logo{
+left: 4.27%;
+right: 87.2%;
+top: 25%;
+bottom: 25%;
+font-size: 60px;
+Top :24px;
+Left :16px;
+color: #0A3871;
+}
+
+.ingresar-div{
+    height: 48px;
+width: 97%;
+left: 16px;
+top: 152px;
+border-radius: 20%;
+padding-top: 50px;
+margin-bottom: 60px;
+}
+
+.ingresar-txt{
+    padding-left: 20px;
+    width: 97%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+font-size: 32px;
+line-height: 150%;
+color: #0A3871;
+overflow: scroll;
+}
+
+.adv-text{
+position: relative;
+width: 205px;
+height: 18px;
+left: 12px;
+top: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #495057;
+margin: 0px 8px
+}
+
+.log-adv{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+color: #67808E;
+}
+
+.boton{
+    width: 97%; border-radius: 12px; height: 50px;
+}
+
+.titulo-txt{
+    width: 263px;
+height: 58px;
+left: 0px;
+top: 0px;
+text-align: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+margin: auto;
+/* or 29px */
+
+text-align: center;
+
+/* Gray/gray-500 */
+
+color: #343A40;
+}
+
+.txt-transform{
+width: 263px;
+height: 48px;
+left: 0px;
+top: 74px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .boton{
+        width: 100%;
+    }
+    #divbtns{
+        margin-bottom: 200px;
+    }
+    .divboton{
+        width: 40%;
+        display: inline-block;
+    }
+    .adv-text{
+        margin-left: 10%;
+    }
+    .log-adv{
+        margin-left: 8%;    
+    }
+
+    .boton:last-child{
+        width: 80%;
+    }
+  } 
+
+  @media screen and (min-width: 900px) {
+
+    .ingresar-txt{
+        width: 50%;
+        display: inline-block;
+    }
+    #divbtns{
+        position: absolute;
+        width: 100%;
+        bottom: 0%;
+        margin: 0;
+    }
+    .divboton{
+        width: 20%;
+        display: inline-block;
+        margin: 0px;
+        float: left;
+    }
+
+  /*  #divcopy{
+        position: absolute;
+        right: 0%;
+        width: 50%;
+    }*/
+    .divtextot{
+        position: absolute;
+        width: 50%;
+        right: 0%;
+    }
+    .boton:last-child{
+        width: 80%;
+    }
+    .adv-text{
+        margin-left: 1%;
+    }
+    .log-adv{
+        margin-left: 0%;    
+    }
+  }

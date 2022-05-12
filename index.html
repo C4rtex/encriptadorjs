@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reference to bootstrap styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/bafda3d1c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesindex.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <i class="fas fa-code logo"></i>
+    </div>
+    <div class="ingresar-div">
+        <input type="text" class="ingresar-txt" placeholder="Inrese el texto aqui">
+    </div>
+    <div id="divadv" style="position: relative;margin: 5px;">
+        <i class="fas fa-exclamation-circle log-adv"></i>
+        <p class="adv-text">Solo letras minúsculas y sin acentos</p>
+    </div>
+    <div id="divbtns" style="text-align: center;">
+        <div class="divboton" style="margin: 10px;">
+            <button onclick="encryptText();" type="button" class="btn btn-primary boton">Encriptar</button>
+        </div>
+        <div class="divboton" style="margin: 10px;">
+            <button onclick="desEncryptText();" type="button" class="btn btn-outline-primary boton">Desencriptar</button>
+        </div>
+    </div>
+    <div class="divtextot" style="height: 90vh;text-align:center;">
+        <div id="divtitle" style="overflow: scroll; height: 100%;text-align:center;">
+            <h3 id="titletextt" class="titulo-txt">Ningún mensaje fue encontrado</h3>
+            <p class="txt-transform">Ingrese el texto que desees encriptar o desencriptar</p>
+        </div>
+        <div id="divcopy" style="text-align: center;">
+            <button id="btncopy" onclick="copy();" type="button" class="btn btn-outline-primary boton">Copiar</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
